@@ -41,14 +41,14 @@ Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure pred
   
 2. Start a terminal and run the following commands:
    ```bash
-   $ mkdir -p /blue/groupname/gatorlink/.cache/nim  # Run only the first time
-   $ export LOCAL_NIM_CACHE=/blue/groupname/gatorlink/.cache/nim/alphafold2-multimer
-   $ mkdir /blue/ufhpc/zhao.qian/.cache/nim/nvs # Run only the first time
-   $ export MMSEQS_DB_DIR=/blue/ufhpc/zhao.qian/.cache/nim/alphafold2-multimer/nvs
-   $ export MMSEQS_TMP_DIR=/blue/ufhpc/zhao.qian/.cache/nim/alphafold2-multimer/nvs
-   $ ml alphafold2-multimer-nim
-   $ alphafold2-multimer
-   $ start_server
+   mkdir -p /blue/groupname/gatorlink/.cache/nim/alphafold2-multimer  # Run only the first time
+   export LOCAL_NIM_CACHE=/blue/groupname/gatorlink/.cache/nim/alphafold2-multimer
+   mkdir /blue/ufhpc/zhao.qian/.cache/nim/alphafold2-multimer/nvs # Run only the first time
+   export MMSEQS_DB_DIR=/blue/ufhpc/zhao.qian/.cache/nim/alphafold2-multimer/nvs
+   export MMSEQS_TMP_DIR=/blue/ufhpc/zhao.qian/.cache/nim/alphafold2-multimer/nvs
+   ml alphafold2-multimer-nim
+   alphafold2-multimer
+   start_server
    ```
    **Note**: Since the `AlphaFold2` model is quite large (`612.47 GB`), downloading the model can take up to `2` hours.
    <p align="center">
