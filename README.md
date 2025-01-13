@@ -184,6 +184,7 @@ AlphaFold2-Multimer NIM provides the following endpoints:
 ### Python Script
 1. Predict Structure from Multiple Input Sequences (Multimers), create [predict-structure-from-sequences.py](predict-structure-from-sequences.py).
    ```bash
+   ml python
    python predict-structure-from-sequences.py
    ```
 
