@@ -52,7 +52,7 @@ Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure pred
    ```
    **Note**: Since the `AlphaFold2` model is quite large (`612.47 GB`), downloading the model can take up to `2` hours.
    <p align="center">
-   <img src="images/model_download.png" alt="download">
+   <img src="images/download.png" alt="model_download">
    </p>
    
 ---
