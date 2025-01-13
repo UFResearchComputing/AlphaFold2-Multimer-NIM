@@ -48,7 +48,6 @@ Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure pred
    start_server
    ```
 ---
----
 
 ## Running Inference
 
