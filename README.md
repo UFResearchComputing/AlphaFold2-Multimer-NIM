@@ -43,8 +43,8 @@ Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure pred
    ```bash
    mkdir -p /blue/groupname/gatorlink/.cache/nim  # Run only the first time
    export LOCAL_NIM_CACHE=/blue/groupname/gatorlink/.cache/nim
-   ml alphaFold2-multimer-nim
-   alphaFold2-multimer
+   ml alphafold2-multimer-nim
+   alphafold2-multimer
    start_server
    ```
 ---
