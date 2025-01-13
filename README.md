@@ -212,6 +212,9 @@ To stop the NIM service, simply close the terminal window.
 
 ### Important Note
 Since downloading the AlphaFold2 model can take a very long time and won't affect your next run, you do not need to clean your cache folder. 
+If you would like save the downloading time, you can copy the model into your cache file folder
+```bash
+cp -r /data/ai/tutorial/nim/model/alphafold2-data_v1.1.0 /blue/groupname/gatorlink/.cache/nim/alphafold2-multimer/.
 
 ---
 
