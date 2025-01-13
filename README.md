@@ -37,7 +37,7 @@ Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure pred
   <img src="images/desktop2.png" alt="Hipergator_Desktop_2" height="350">
   </p>
 
-  **Note**: Remember to update the `SLURM` account and `QoS` to match your group, and adjust the **job time** accordingly. 
+  **Note**: Remember to update the `SLURM account` and `QoS` to match your group, and adjust the **job time** accordingly. 
   
 2. Start a terminal and run the following commands:
    ```bash
