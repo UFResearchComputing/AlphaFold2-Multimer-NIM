@@ -29,7 +29,7 @@ Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure pred
 - **Storage**: 512GB fast NVMe SSD space.
 
 
-## Launch MolMIM NIM on HPG
+## Launch AlphaFold2-Multimer NIM on HPG
 
 1. Go to [OOD](https://ood.rc.ufl.edu/) and launch the Hipergator Desktop.
   <p align="center">
@@ -224,7 +224,7 @@ cp -r /data/ai/tutorial/nim/models/alphafold2-data_v1.1.0 /blue/groupname/gatorl
 
 ---
 
-## Another way to run MolMIM NIM on HPG
+## Another way to run AlphaFold2-Multimer NIM on HPG
 
 1. **Submit a SLURM batch job**  
    Use `sbatch` to start the NIM server with GPU resources, and record the name of the node where the server is running.
