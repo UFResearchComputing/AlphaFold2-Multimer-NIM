@@ -182,7 +182,7 @@ AlphaFold2-Multimer NIM provides the following endpoints:
    
 
 ### Python Script
-First, you need to load python module:
+    First, you need to load python module:
 ```bash
 ml python
 ```
